@@ -37,17 +37,17 @@ ul {
   }
   @font-face {
     font-family: mont;
-    src: url(Mont-Regular.woff2);
+    src: url(../font/Mont-Regular.woff2);
     font-weight: 400;
   }
   @font-face {
     font-family: mont;
-    src: url(Mont-Bold.woff2);
+    src: url(../font/Mont-Bold.woff2);
     font-weight: 700;
   }
   @font-face {
     font-family: montserrat;
-    src: url(Montserrat-Light.ttf);
+    src: url(../font/Montserrat-Light.ttf);
     font-weight: 400;
     
   }
