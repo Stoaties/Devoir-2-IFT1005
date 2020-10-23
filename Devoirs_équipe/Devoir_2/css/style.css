@@ -333,13 +333,14 @@ h2{
 }
 
 #see-bloc-container{
-  display: flex;
-  
+  display: flex;    
   padding-top: 5.73vw;
   padding-left: 9.38vw;
   padding-right: 9.38vw;
   margin-left: -3.65vw;
   margin-right: -3.65vw;
+  background-color: #fff;
+   
 }
 
 .see-bloc
@@ -363,6 +364,58 @@ h2{
   font-size: 27px;
   width:100%;
   line-height: 1.2em;
+  font-weight:400;
 }
 
+.see-learn-more{
+  color: #696969;
+  background: #e7e7e7;
+  border: 1px solid #e7e7e7;
+  padding: 20px 30px;
+  font-size: 14px;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height:1em;
+  border-radius: 50px;
+  box-sizing:border-box;
+  cursor:pointer;
+  text-decoration: none;
+  transition: color .4s,background .4s,border-color .4s;
+  padding: 20px 30px;
+}
 
+.see-learn-more:hover{
+  background: #3a70e0;
+  border-color: #3a70e0;
+  cursor:pointer;
+  color:#ffffff;
+  text-decoration:none;
+}
+
+.board-grid-title strong{
+  color: #000000;
+  font-weight: 700;
+}
+
+.leftbox{
+  width:50%;
+  height: 100%;
+  background: #42af49;
+  position: absolute;
+  right: 10;
+}
+.rightbox{
+  width:50%;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  right: 0;
+}
+.why-mamanger-h3{
+  color: #fff;
+  font-size: 2.5vw;
+  font-weight: 300;
+  font-family: Mont,sans-serif;
+  margin: 0;
+}
