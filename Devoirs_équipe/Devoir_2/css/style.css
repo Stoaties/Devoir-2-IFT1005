@@ -419,3 +419,11 @@ h2{
   font-family: Mont,sans-serif;
   margin: 0;
 }
+.slider-interne{
+  width: 100%;
+  transition: background .3s;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  box-sizing: border-box;
+}
