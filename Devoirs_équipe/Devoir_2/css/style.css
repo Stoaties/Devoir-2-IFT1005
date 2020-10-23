@@ -224,34 +224,37 @@ line-height: 1.15em;
 color: #606060;
     
 }
+
 .bloc{
-display:flex;
-flex-direction:row; 
-justify-content: space-between;
+  display:flex;
+  flex-direction:row; 
+  justify-content: space-between;
    
     
 }
 .orangeun{
-text-shadow: -1px -1px 0 #f8b445, 1px -1px 0 #f8b445, -1px 1px 0 #f8b445, 1px 1px 0 #f8b445;
-font-size: 5.52vw;
-opacity: .7;
-line-height: 1em;
-font-weight: 700;
-display: inline-block;
-color: #fff;
-    
-}
+  text-shadow: -1px -1px 0 #f8b445, 1px -1px 0 #f8b445, -1px 1px 0 #f8b445, 1px 1px 0 #f8b445;
+  font-size: 5.52vw;
+  opacity: .7;
+  line-height: 1em;
+  font-weight: 700;
+  display: inline-block;
+  color: #fff;
 
+
+}
+/*
 .blocorange{
-    
-background-color: #ffffff;    
+   background-color: #ffffff;    
 box-shadow: 2px -2px 5px -2px rgba(0,0,0,.15);
 padding: 3.91vw 2.34vw;
 height: 100%;
 background: #fff;
 border-radius: 5px;
-text-align: center;
+text-align: center; 
+
 }
+*/
 .verttrois{
 text-shadow: -1px -1px 0 #42af49, 1px -1px 0 #42af49, -1px 1px 0 #42af49, 1px 1px 0 #42af49;
 font-size: 5.52vw;
@@ -260,8 +263,9 @@ line-height: 1em;
 font-weight: 700;
 display: inline-block;
 color: #fff;
-}
 
+}
+/*
 .blocvert{
 background-color: #ffffff;
 box-shadow: 2px -2px 5px -2px rgba(0,0,0,.15);
@@ -271,7 +275,7 @@ background: #fff;
 border-radius: 5px;
 text-align: center;
 }
-
+*/
 .bleudeux{
 text-shadow: -1px -1px 0 #3a70e0, 1px -1px 0 #3a70e0, -1px 1px 0 #3a70e0, 1px 1px 0 #3a70e0;
 font-size: 5.52vw;
@@ -280,8 +284,9 @@ line-height: 1em;
 font-weight: 700;
 display: inline-block;
 color: #fff;
-}
 
+}
+/*
 .blocbleu{
 background-color: #ffffff;
 box-shadow: 2px -2px 5px -2px rgba(0,0,0,.15);
@@ -291,13 +296,54 @@ background: #fff;
 border-radius: 5px;
 text-align: center;
 }
+*/
 .grislearnmore{    
     display: inline-block;
         
-    }
-    .buttonlearnmore:hover{
-    background-color: #696969;
-    cursor:pointer;
-    color:#ffffff;
-        
-    }
+}
+
+.buttonlearnmore:hover{
+  background-color: #696969;
+  cursor:pointer;
+  color:#ffffff;
+}
+
+.blocs{
+  background-color: #ffffff;    
+  box-shadow: 2px -2px 5px -2px rgba(0,0,0,.15);
+  padding: 3.91vw 2.34vw;
+  color: grey;
+
+  text-align: center;
+  width: 18.5vw;
+  height: 100%;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.blocs p{
+  text-align: left;
+  font-size: 21px; 
+  margin-top: 2.5vw;
+  margin-block-end: 0em;
+}
+
+.intro-text{
+  width: 66%;
+}
+
+#black-kanbanize{
+  color: black;
+}
+
+.text-bleu{
+  color: #3a70e0;
+}
+
+.text-vert{
+  color: #42af49;
+}
+
+.text-orange{
+  color: #f8b445;
+}
