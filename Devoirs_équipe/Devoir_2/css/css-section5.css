@@ -77,60 +77,81 @@ body {
   }
   
 .leftbox{
-    width:50%;
+    width:40%;
     height: 100%;
     background: #42af49;
     position: absolute;
     right: 10;
+    display:flex;
+    flex-direction: column;
+    
   }
-.rightbox{
-    width:50%;
-    height: 100%;
-    background: #fff;
-    position: absolute;
-    right: 0;
-  }
+
 h3{
     color: #fff;
     font-size: 2.5vw;
     font-weight: 300;
     font-family: Mont,sans-serif;
     margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
 .petite-image{
     opacity: 1;
     transition: opacity .3s;
-    backface-visibility: hidden;    
-    display: inline-block;
+    backface-visibility: hidden; 
     cursor: pointer;
     border-radius: 50%;
     width: 10%;
 }
 .person-slider{
-    display:flex;
-    height: 133.333px;    
-    flex-shrink: 0;
-    position: relative;
-    width: 100%;
+    height: 133.333px;
     padding: 0 1.3vw;
     cursor: pointer;
-    transition: background .3s;
+    
 }
 .person-slider-actif{
-    background-color: #fff;
+  background-color: #fff;  
+  color: #000;
 }
-.slider-interne{
-    width: 100%;
-    transition: background .3s;
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-    box-sizing: border-box;
-  }
+
 .person-info{
     width: calc(100% - 3.96vw);
     padding-left: .78vw;
     padding-right: .78vw;
     display: inline-block;
     vertical-align: middle;
+    color: #fff;
 }
+#grosse-image{
+  width: 35%;
+  display: inline-block;
+  border-radius: 50%;
+}
+.rightbox{
+    width:50%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    display:flex;
+    justify-content: center;
+    flex-flow:column;
+    align-items: center;
+  }
+  .texte-et-image{
+    padding-left: 4.17vw;
+    padding-right: 4.17vw;
+    padding: 50px 0;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    line-height: 1.2em;
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: color .3s;
+  }
