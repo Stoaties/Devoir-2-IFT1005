@@ -1,0 +1,131 @@
+navbar {
+  padding-left: 2.6vw;
+  padding-right: 2.6vw;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #000;
+  font-weight: 400;
+  font-family: Mont,sans-serif;
+  background-color:white;
+  width: 100%;  
+
+  display:flex;
+  justify-content: flex-start;
+}
+.nav-bar{
+  display:flex;
+  justify-content:flex-end;   
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display:flex;
+
+}
+li{
+  margin-right: 2.5vw;
+  margin-left: 2.5vw;
+  margin-top: 5px;
+}
+li a {
+  text-decoration: none;
+  color:#7F7F7F;
+  font-family: mont;
+  font-weight: 400;
+}
+@font-face {
+  font-family: mont;
+  src: url(../font/Mont-Regular.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: mont;
+  src: url(../font/Mont-Bold.woff2);
+  font-weight: 700;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../font/Montserrat-Light.ttf);
+  font-weight: 400;
+  font-style: normal;
+
+}
+@font-face{
+  font-family: montserrat;
+  src:url(../font/Montserrat-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: montserrat-bold;
+  src:url(../font/Montserrat-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  margin:0;
+  padding:0;
+  background: #f3f3f3;
+  font-family: montserrat;
+}
+#see-bloc-container{
+  display: flex;    
+  padding-top: 5.73vw;
+  padding-left: 9.38vw;
+  padding-right: 9.38vw;
+  margin-left: -3.65vw;
+  margin-right: -3.65vw;
+  background-color: #fff;
+   
+}
+
+.see-bloc
+{  
+  display:flex;
+  flex-direction: column;
+  width: 33.333%;
+  padding-left: 5.73vw;
+  padding-right: 5.73vw;
+  padding-bottom: 5.73vw;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.bloc-image{
+  width: 200px;
+  height:auto;
+}
+.board-grid-title{
+  font-size: 27px;
+  width:100%;
+  line-height: 1.2em;
+  font-weight:400;
+}
+.see-learn-more{
+  color: #696969;
+  background: #e7e7e7;
+  border: 1px solid #e7e7e7;
+  padding: 20px 30px;
+  font-size: 14px;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+   
+  line-height:1em;
+  border-radius: 50px;
+  box-sizing:border-box;
+  cursor:pointer;
+  text-decoration: none;
+  transition: color .4s,background .4s,border-color .4s;
+  padding: 20px 30px;
+}
+
+.see-learn-more:hover{
+  background: #3a70e0;
+  border-color: #3a70e0;
+  cursor:pointer;
+  color:#ffffff;
+  text-decoration:none;
+}
