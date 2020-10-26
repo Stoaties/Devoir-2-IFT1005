@@ -7,7 +7,7 @@ navbar {
   font-weight: 400;
   font-family: Mont,sans-serif;
   background-color:white;
-  width: 100%;  
+  width: auto;  
 
   display:flex;
   justify-content: flex-start;
@@ -72,6 +72,7 @@ body {
 }
 #see-bloc-container{
   display: flex;    
+  height: 100%;
   padding-top: 5.73vw;
   padding-left: 9.38vw;
   padding-right: 9.38vw;
@@ -86,6 +87,7 @@ body {
   display:flex;
   flex-direction: column;
   width: 33.333%;
+
   padding-left: 5.73vw;
   padding-right: 5.73vw;
   padding-bottom: 5.73vw;
@@ -129,3 +131,12 @@ body {
   color:#ffffff;
   text-decoration:none;
 }
+
+ .img-container{
+  display: flex;
+  justify-content: center;
+ }
+
+ .description-text{
+  margin-bottom: auto;
+ }
