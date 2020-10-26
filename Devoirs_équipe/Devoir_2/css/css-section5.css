@@ -140,14 +140,19 @@ h3{
 	margin-inline-end: 0px;
 }
 .petite-image{
-	opacity: 1;
-	transition: opacity .3s;
 	backface-visibility: hidden; 
 	cursor: pointer;
 	border-radius: 50%;
 	width: 3.96vw;
 	height: 3.96vw;
+	opacity: .5;
+    transition: opacity .3s;
 }
+
+.person-slider-actif .petite-image{
+	opacity: 1;
+}
+
 .person-slider{
 	height: 133.333px;
 	padding: 0 1.3vw;
