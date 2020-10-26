@@ -1,5 +1,5 @@
 /* Catherine Larivière 955948 */
-navbar {
+.navbar {
     padding-left: 2.6vw;
     padding-right: 2.6vw;
     padding-bottom: 10px;
@@ -9,14 +9,19 @@ navbar {
     font-family: Mont,sans-serif;
     background-color:white;
     width: 100%;  
-  
     display:flex;
     justify-content: flex-start;
+    align-items: center;
   }
+
 .nav-bar{
     display:flex;
     justify-content:flex-end;   
-  
+}
+
+.logo-navbar{
+    width:144.5948;
+    height:25.375;
 }
 ul {
     list-style-type: none;
