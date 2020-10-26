@@ -177,9 +177,10 @@ h3{
 }
 
 #grosse-image{
-	width: 44%;
+	width: 80%;
 	display: inline-block;
 	border-radius: 50%;
+	padding-left:15px;
 }
 
 .texte-et-image{
@@ -199,6 +200,7 @@ h3{
 .position-text, .position-sub-text{
 	font-family: montserrat;
 	display: block;
+	width: 200%;
 }
 
 .right-text .position-text{
@@ -242,6 +244,7 @@ h3{
 	text-transform: none;
 	font-family: mont-light;
 	margin-top: 5.73vw;
+	width: 200%;
 }
 
 .right-text{
