@@ -21,8 +21,8 @@
 }
 
 .logo-navbar{
-    width:144.5948;
-    height:25.375;
+    width:15%;
+    height:10%;
 }
 ul {
     list-style-type: none;
@@ -125,10 +125,8 @@ main {
 
 p {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 5em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    writing-mode: horizontal-tb;
+    padding-bottom: 4rem;
 }
 .button-learn-more{    
     display: inline-block;
