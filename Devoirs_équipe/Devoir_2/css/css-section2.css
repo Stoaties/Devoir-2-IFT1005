@@ -21,9 +21,10 @@
 }
 
 .logo-navbar{
-  width:144.5948;
-  height:25.375;
+  width:15%;
+  height:10%;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -101,10 +102,6 @@ p{
     line-height: 1.6;
     font-weight: 500;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-family: Montserrat,sans-serif;
   
   
@@ -115,10 +112,6 @@ p{
     font-size: 30px;    
     padding-bottom: 35px;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-family: montserrat,sans-serif;
   
   

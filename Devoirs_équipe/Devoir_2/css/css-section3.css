@@ -21,8 +21,8 @@
 }
 
 .logo-navbar{
-    width:144.5948;
-    height:25.375;
+    width:15%;
+    height:10%;
 }
 ul {
 	list-style-type: none;
@@ -81,13 +81,7 @@ main {
 	width:100%;
 
 }
-p {
-	display: block;
-	margin-block-start: 1em;
-	margin-block-end: 5em;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-}
+
 
 h2{
 	font-weight: 700;
@@ -106,8 +100,7 @@ h2{
 	display:flex;
 	flex-direction:row; 
 	justify-content: space-between;
-
-
+	padding-top: 75px;
 }
 .orangeun{
 	text-shadow: -1px -1px 0 #f8b445, 1px -1px 0 #f8b445, -1px 1px 0 #f8b445, 1px 1px 0 #f8b445;
@@ -128,6 +121,10 @@ h2{
 	font-family: montserrat-bold;
 	display: inline-block;
 	color: #fff;
+
+}
+.intro-text{
+	width: 65%;
 
 }
 
@@ -183,5 +180,4 @@ h2{
 	text-align: left;
 	font-size: 21px; 
 	margin-top: 2.5vw;
-	margin-block-end: 0em;
 }
