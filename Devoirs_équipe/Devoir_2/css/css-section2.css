@@ -76,6 +76,7 @@ body {
     padding:0;
     background: #f3f3f3;
     font-family: montserrat;
+    width: 100%;
   }
 main{
     position: relative;
