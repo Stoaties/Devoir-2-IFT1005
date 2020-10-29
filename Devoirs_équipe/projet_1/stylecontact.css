@@ -12,7 +12,7 @@ nav {
 
 body {
   font-family: "Graphik-Web",sans-serif;
-  font-size: .9rem;
+  font-size: 1.125rem;
   margin: 0px;
   line-height: 1.5;
   color: #55647b;
@@ -26,10 +26,8 @@ footer {
   flex-wrap:wrap;
 }
 
-a{
-  padding:15px 12px;
-  color: #55647b;
-  text-decoration: none;
+a:visited{
+  color: #4769d8;
 }
 
 ul{
@@ -38,9 +36,21 @@ ul{
 }
 
 li{
-  font-size: 16px;
   color: #55647b;
   text-decoration: none;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+label{
+  color: #131a2b;
+}
+
+
+.contact-form{
+  width: 750px;
 }
 
 .navbar {
@@ -50,10 +60,44 @@ li{
   overflow:hidden;
 }
 
-.navbar a {
+.navbar a{
+
+  padding:15px 12px;
   font-size: 16px;
   color: #55647b;
   text-decoration: none;
+}
+
+
+.ul-form{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ul-form li{
+  display: flex;
+  flex-direction: column;
+  flex: calc(50% - 1rem);
+  margin-right: .5rem;
+  margin-top: 16px;
+}
+
+.ul-form li input{
+  min-height: 50px;
+  font-size: 1.3rem;
+  background-color: #fff;
+  border: 1px solid #ecf1f7;
+  border-radius: .15rem;
+}
+
+.message-li{
+  flex: 1 0 100%;
+  width: 100%;
+}
+
+.li-understand{
+  flex: 1 0 100%;
+  width: 100%;
 }
 
 .navbar-brand{
@@ -78,6 +122,24 @@ li{
   padding-left: 20px;
   width: 100%;
 }
+
+.form-container{
+  width: 960px;
+  margin: auto;
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header h1{
+  display: block;
+  width: 750px;
+  color: #131a2b;
+  font-size: 2.5rem;
+  margin-bottom: 26px;
+}
+
 
 .dropdown {
   float: left;

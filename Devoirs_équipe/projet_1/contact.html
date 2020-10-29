@@ -54,50 +54,61 @@
 		</div>
 	</nav>
 
-	
-	<div class="cs-container main-section">
-		<form>
-			<div class="ul-form"> Use the form below to get in touch with us,
-				unless you have a support related question, in which case you should use the <a
-				href="https://forums.athemes.com">support forum</a> instead. <br><br> If you would like to
-				discuss anything relating to billing, your account, partnerships or have pre-sales questions, you're
-			in the right place. Go ahead and submit the form!</div>
-			<div class="contact_body">
-				<ul class="ul-form">
-					<li>
-						<label class="name" for="name">Your Name*</label>
-						<input name="name" id="name" type="text" class="medium" aria-required="true"
-						aria-invalid="false" required>
-					</li>
-					<li>
-						<label class="email" for="email">Your Email*</label>
-						<input name="email" type="text" value="" class="medium" aria-required="true"
-						aria-invalid="false" required>
-					</li>
-					<li>
-						<label class="website" for="website">Your Website</label>
-						<input name="website" type="text" value="" class="medium" aria-invalid="false">
+	<main class="main-section">
+		<div class="cs-container">
+			<div class="form-container">
+				<header>
+					<h1>Contact</h1>
+				</header>
+				<form class="contact-form">
+					<div class="ul-form"> 
+						<p>
+							Use the form below to get in touch with us,
+							unless you have a support related question, in which case you should use the <a
+							href="https://forums.athemes.com">support forum</a> instead. <br><br> If you would like to
+							discuss anything relating to billing, your account, partnerships or have pre-sales questions, you're
+						in the right place. Go ahead and submit the form!</p>
+					</div>
+					<div class="contact_body">
+						<ul class="ul-form">
+							<li>
+								<label class="name" for="name">Your Name*</label>
+								<input name="name" id="name" type="text" class="medium" aria-required="true"
+								aria-invalid="false" required>
+							</li>
+							<li>
+								<label class="email" for="email">Your Email*</label>
+								<input name="email" type="text" value="" class="medium" aria-required="true"
+								aria-invalid="false" required>
+							</li>
+							<li>
+								<label class="website" for="website">Your Website</label>
+								<input name="website" type="text" value="" class="medium" aria-invalid="false">
 
-					</li>
-					<li>Subject
-						<input name="subject" type="text" class="medium" aria-invalid="false">
-					</li>
-					<li id="yourmessage" class="yourmessage">
-						<label>Your Message</label>
-						<textarea name="yourmessage" class="textarea medium" aria-invalid="false"
-						rows="10" cols="50"></textarea>
-					</li>
-					<li>I understand that this form is NOT for theme support.
+							</li>
+							<li>
+								<label>Subject</label>
+								<input name="subject" type="text" class="medium" aria-invalid="false">
+							</li>
+							<li id="yourmessage" class="message-li">
+								<label>Your Message</label>
+								<textarea name="yourmessage" class="textarea medium" aria-invalid="false"
+								rows="10" cols="50"></textarea>
+							</li>
+							<li class="li-understand">
+								I understand that this form is NOT for theme support.
 
-						<ul class="checkbox">
-							<li class="checkbox"> <input name="checkbox_yes" type="checkbox" value="Yes">Yes</li>
-						</ul>				
-					</li>
-				</ul>
+								<ul class="checkbox">
+									<li class="checkbox"> <input name="checkbox_yes" type="checkbox" value="Yes">Yes</li>
+								</ul>				
+							</li>
+						</ul>
+					</div>
+					<input type="submit" id="contact_submit_button" class="contact_button" value="Submit">
+				</form>
 			</div>
-			<input type="submit" id="contact_submit_button" class="contact_button" value="Submit">
-		</form>
-	</div>
+		</div>
+	</main>
 
 	<footer>
 		<div class="cs_footer_head">
@@ -126,7 +137,7 @@
 				speedy
 				support and frequent updates. Check out our blog for all things WordPress: from tutorials to tricks and
 				guides to help you create a great
-				WordPress website.</p>
+			WordPress website.</p>
 			<h3>Useful Links</h3>
 			<a>Contact</a>
 			<a>Pricing</a>
