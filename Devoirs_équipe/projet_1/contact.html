@@ -74,12 +74,12 @@
 					<div class="contact_body">
 						<ul class="ul-form">
 							<li>
-								<label class="name" for="name">Your Name*</label>
+								<label class="name" for="name">Your Name<span class="required-field">*</span></label>
 								<input name="name" id="name" type="text" class="medium" aria-required="true"
 								aria-invalid="false" required>
 							</li>
 							<li>
-								<label class="email" for="email">Your Email*</label>
+								<label class="email" for="email">Your Email<span class="required-field">*</span></label>
 								<input name="email" type="text" value="" class="medium" aria-required="true"
 								aria-invalid="false" required>
 							</li>
@@ -92,17 +92,16 @@
 								<label>Subject</label>
 								<input name="subject" type="text" class="medium" aria-invalid="false">
 							</li>
-							<li id="yourmessage" class="message-li">
+							<li id="message-li">
 								<label>Your Message</label>
 								<textarea name="yourmessage" class="textarea medium" aria-invalid="false"
-								rows="10" cols="50"></textarea>
+								rows="10" cols="50" reziable=false></textarea>
 							</li>
 							<li class="li-understand">
-								I understand that this form is NOT for theme support.
-
-								<ul class="checkbox">
-									<li class="checkbox"> <input name="checkbox_yes" type="checkbox" value="Yes">Yes</li>
-								</ul>				
+								<label>I understand that this form is NOT for theme support.<span class="required-field">*</span></label>
+								<div class="checkbox-container">
+									<input name="checkbox_yes" type="checkbox" value="Yes"><label>Yes</label>
+								</div>		
 							</li>
 						</ul>
 					</div>
