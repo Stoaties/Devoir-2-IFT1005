@@ -17,14 +17,13 @@ min-height: 60px;
 }
 
 body {
-font-family: "Graphik-Web",sans-serif;
-font-size: 1.125rem;
-margin: 0px;
-line-height: 1.5;
-color: #55647b;
+  font-family: "Graphik Web",sans-serif;
+  font-size: .9rem;
+  line-height: 1.5;
+  color: #55647b;
+  letter-spacing: normal;
+  -webkit-font-smoothing: antialiased;
 }
-
-
 
 a:visited{
 color: #4769d8;
@@ -149,12 +148,6 @@ display: flex;
 flex-direction: row;
 }
 
-.main-section{
-display: flex;
-justify-content: center;
-margin-bottom: 140px;
-}
-
 .cs-container{
 max-width: 1180px;
 padding-right: 20px;
@@ -207,24 +200,34 @@ box-sizing: border-box;
 .dropdown:hover .dropdown-content {
 display: block;
 }
-#contact_submit_button{
-color: #fff;
-padding: .6875rem 1.875rem .625rem;
-font-size: inherit;
-font-family: "Graphik-Web",sans-serif;
-font-weight: 500;
-align-items: center;
-background-color: #4769d8;
-border: 1px solid #4769d8;
-border-radius: .2rem;
+.main-section{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 140px;
+  width: 960px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.register{
+  width: 750px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 2rem
 }
 legend{
   width: 100%;
   margin:0;
   padding:0;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
 }
 p{
-  margin-bottom: 1rem;
+margin-bottom: 1rem;
 margin-top: -.35rem;
 }
 input{
@@ -244,10 +247,9 @@ input{
 }
 .register_button{
   color: #fff;
-  background-color: #4a8eff;
-  border-color: #4a8eff;  
+  background-color: #4769d8;
+  border-color:  #4769d8;  
   display: inline-flex;
-  -webkit-box-align: center;
   align-items: center;
   padding: .55rem 1.5rem .6rem;
   font-family: "Graphik Web",sans-serif;
@@ -266,7 +268,9 @@ input{
 .register_button:hover{
   color: #fff!important;
   background-color: #2e54d3;
-  border-color: #2e54d3;}
+  border-color: #2e54d3;
+}
+
 /* bas de page */
 footer {
   padding-top: 70px;
@@ -375,6 +379,12 @@ text-align: left;
   display:flex;
 	flex-direction:row; 
   justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .ref_link a{  
@@ -400,6 +410,8 @@ text-align: left;
   padding-left: 50px;
   flex-grow: 1;
   flex: 0 0 34%;
+  max-width: 34%;
+  
 }
 .useful_link{
   display: flex;
@@ -407,7 +419,7 @@ text-align: left;
   padding-right: 50px;
   padding-left: 50px;
   flex-grow: 1;
-  flex: 0 0 34%;
   flex-direction:column;
-
+  flex: 0 0 34%;
+  max-width: 34%;
 }
