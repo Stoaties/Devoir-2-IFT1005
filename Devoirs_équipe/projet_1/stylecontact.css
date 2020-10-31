@@ -257,13 +257,7 @@ footer {
   text-align: left;
   
 }
-.cs_footer_bot{
-  display:block;
-  justify-content:space-between;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-direction:column;
-}
+
 .footer_container{
   max-width: 1180px;
   width: 100%;
@@ -290,7 +284,6 @@ font-size: 1rem;
 color: #131a2b;
 text-align: left;
 }
-
 
 .email_form{
   display:flex;
@@ -339,7 +332,13 @@ text-align: left;
   border-color: #2e54d3;
 }
 
-.ref_link{  
+.cs_footer_bot{
+  display:flex;
+	flex-direction:row; 
+  justify-content: space-between;
+}
+
+.ref_link a{  
   font-size: .7rem;
   line-height: 1.71;  
   text-decoration: none;  
@@ -348,10 +347,28 @@ text-align: left;
   padding: 0;
   margin: 0;
 }
-.ref_link:hover{  
+.ref_link:hover a {  
   color: #131a2b;
   font-size: .7rem;
   line-height: 1.71;
   text-decoration:none;
   
+}
+.athemes .top_post {
+  display: flex;
+  padding-top: 60px;
+  padding-right: 50px;
+  padding-left: 50px;
+  flex-grow: 1;
+  flex: 0 0 34%;
+}
+.useful_link{
+  display: flex;
+  padding-top: 60px;
+  padding-right: 50px;
+  padding-left: 50px;
+  flex-grow: 1;
+  flex: 0 0 34%;
+  flex-direction:column;
+
 }
