@@ -1,12 +1,12 @@
 @font-face {
-    font-family: Graphik-Web;
-    src: url(fonts/Graphik-Regular-Web.woff2);
+  font-family: Graphik-Web;
+  src: url(fonts/Graphik-Regular-Web.woff2);
 }
 
 @font-face {
-    font-family: Graphik-Web;
-    src: url(fonts/Graphik-Medium-Web.woff2);
-    font-weight: 500;
+  font-family: Graphik-Web;
+  src: url(fonts/Graphik-Medium-Web.woff2);
+  font-weight: 500;
 }
 
 nav {
@@ -70,6 +70,14 @@ header h1{
   font-weight: 500;
 }
 
+footer input{
+  min-height: 50px;
+  font-size: 1.3rem;
+  background-color: #fff;
+  border: none;
+  border-radius: .15rem;
+}
+
 .ul-form li{
   display: flex;
   flex-direction: column;
@@ -85,6 +93,8 @@ header h1{
   border: 1px solid #ecf1f7;
   border-radius: .15rem;
 }
+
+
 
 .navbar a{
 
