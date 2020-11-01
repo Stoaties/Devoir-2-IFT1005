@@ -302,9 +302,26 @@ h1{
   border-color: #379b7d;
 }
 .why-choose{
+  max-width: 1180px;
+  max-height:872px;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 140px;
+  padding-bottom: 140px;
   text-align: center;
 }
-
+}
+.why-choose-box{
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+  flex-wrap: wrap;
+}
 .banner-users{
   padding-top: 80px;
   padding-bottom: 80px;
