@@ -80,14 +80,13 @@ header h1{
 footer input{
   min-height: 50px;
   font-size: 1.3rem;
+  font-family: inherit;
   background-color: #fff;
   border: none;
   border-radius: .15rem;
 }
 
 .cs-footer-bot>div{
-  padding-right: 50px;
-  padding-left: 50px;
 }
 
 .ul-form li{
@@ -122,6 +121,7 @@ footer input{
 
 .contact-form{
   width: 750px;
+  margin-bottom: 140px;
 }
 
 .navbar {
@@ -243,6 +243,7 @@ footer input{
 .blue-button{
   color: #fff;
   padding: .6875rem 1.875rem .625rem;
+  line-height: 1.5;
   font-size: inherit;
   font-family: "Graphik-Web",sans-serif;
   font-weight: 500;
@@ -368,6 +369,9 @@ footer input{
 .useful-links{
   flex: 0 0 36%;
   max-width: 36%;
+
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .athemes{
@@ -375,4 +379,20 @@ footer input{
   flex-direction: column;
   flex: 0 0 34%;
   max-width: 34%;
+}
+
+.email-form{
+  padding-right: 10px;
+  background-color: #fff;
+  border-radius: .15rem;
+  display: flex;
+  align-items: center;
+}
+
+.ul-links{
+  column-count: 2;
+}
+
+.ul-links li{
+  margin-top: 10px;
 }
