@@ -18,6 +18,7 @@ min-height: 60px;
 
 body {
   font-family: "Graphik Web",sans-serif;
+  font-weight:500;
   font-size: .9rem;
   line-height: 1.5;
   color: #55647b;
@@ -233,16 +234,11 @@ margin-top: -.35rem;
 input{
   display: block;
   width: 100%;
-  min-height: 50px;
   padding: .7rem 1rem .75rem;
-  font-family: "Graphik Web",sans-serif;
   font-size: .8rem;
-  color: #131a2b;
   background-color: #fff;
   border: 1px solid #ecf1f7;
   border-radius: .15rem;
-  -webkit-transition: border-color .2s ease-in-out;
-  -o-transition: border-color .2s ease-in-out;
   transition: border-color .2s ease-in-out;
 }
 .register_button{
@@ -422,4 +418,10 @@ text-align: left;
   flex-direction:column;
   flex: 0 0 34%;
   max-width: 34%;
+}
+.colonne{
+position: relative;
+box-sizing: border-box;
+padding: 2.08vw 4.69vw;
+width: 75%;
 }

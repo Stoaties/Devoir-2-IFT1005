@@ -372,3 +372,10 @@ text-align: left;
   flex-direction:column;
 
 }
+.colonne{
+  position: relative;
+  box-sizing: border-box;
+  padding: 2.08vw 4.69vw;
+  width: 75%;
+  }
+  
