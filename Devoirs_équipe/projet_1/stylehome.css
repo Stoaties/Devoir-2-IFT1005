@@ -387,7 +387,12 @@ h1{
 }
 
 .latest-from-blog{
+  align-items:center;
+  text-align: left;
 
+}
+.latest-from-blog.a{
+  text-decoration:none;
 }
 /*bas de page*/
 footer {
