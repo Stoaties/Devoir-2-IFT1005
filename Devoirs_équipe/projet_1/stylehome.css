@@ -208,9 +208,8 @@ display: block;
 /*main*/
 main{
  display:flex;
- justify-content: space-around;
+ justify-content: center;
  align-items:center;
- margin: 5rem;
 }
 .section_design{
   padding-bottom: 60px;
@@ -219,6 +218,8 @@ main{
   position: relative;
   box-sizing: border-box;
   flex-wrap: wrap;
+  display:flex;
+  width: 50%;
 }
 
 h1{
@@ -269,7 +270,7 @@ h1{
   padding-bottom: 140px;
   text-align: center;
   background-color: #fafbfd;
-
+  width:200%;
 }
 .featured-themes h2{
   font-size: 2rem;
@@ -314,12 +315,12 @@ h1{
   margin-left: auto;
   padding-top: 140px;
   padding-bottom: 140px;
-  text-align: center;
+  display:inline-block;
+  vertical-align: top;
 }
 
-.why-choose-box{  
-  position: relative;
-  box-sizing: border-box;
+.why-choose-box{
+  display: inline-block;
 }
 .why-choose-title{
   margin-bottom: 11px;
