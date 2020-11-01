@@ -209,6 +209,7 @@ display: block;
 main{
  display:flex;
  justify-content: space-around;
+ align-items:center;
  margin: 5rem;
 }
 .section_design{
@@ -257,8 +258,10 @@ h1{
 }
 .logo_line{
   display:flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   margin-top: -30px;
+  padding-bottom: 70px;
   width: 60%;
 }
 .featured-themes{
