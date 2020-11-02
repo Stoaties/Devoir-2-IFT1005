@@ -1,3 +1,7 @@
+
+/*-- Catherine Larivière 955948 */
+/* Corentin Gouanvic 20170576 */
+
 @font-face {
   font-family: Graphik-Web;
   src: url(fonts/Graphik-Regular-Web.woff2);
@@ -90,9 +94,6 @@ h1{
   color: #131A2B;
 }
 
-.logo-line img{
-
-}
 
 .ul-form li{
   display: flex;
@@ -266,7 +267,43 @@ h1{
   text-decoration: none;
   color: #fff;
 }
-
+.btn_view_themes_green{
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: .55rem 1.5rem .6rem;
+  font-family: "Graphik Web",sans-serif;
+  font-size: .85rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fff!important;
+  text-decoration: none!important;
+  white-space: nowrap;
+  cursor: pointer;background-color: #3fb28f;
+  border-color: #3fb28f;
+  border-radius: .2rem;
+  will-change: transform;
+  transition: background-color .15s ease-out,border-color .15s ease-out,color .15s ease-out;
+}
+.btn_browse_themes{
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: .55rem 1.5rem .6rem;
+  font-family: "Graphik Web",sans-serif;
+  font-size: .85rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fff!important;
+  text-decoration: none!important;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: #39476c;
+  border-color: #39476c;
+  border-radius: .2rem;
+  will-change: transform;
+  transition: background-color .15s ease-out,border-color .15s ease-out,color .15s ease-out;
+}
 .subscribe-wrap{
   padding-right: 10px;
   background-color: #fff;
