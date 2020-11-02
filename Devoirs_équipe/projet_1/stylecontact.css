@@ -86,7 +86,12 @@ footer input{
   border-radius: .15rem;
 }
 
-.cs-footer-bot>div{
+h1{
+  color: #131A2B;
+}
+
+.logo-line img{
+
 }
 
 .ul-form li{
@@ -173,6 +178,9 @@ footer input{
 .main-section{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .cs-container{
@@ -251,10 +259,12 @@ footer input{
   background-color: #4769d8;
   border: 1px solid #4769d8;
   border-radius: .2rem;
+
 }
 
-.subscribe-container{
-
+.blue-button a:visited{
+  text-decoration: none;
+  color: #fff;
 }
 
 .subscribe-wrap{
@@ -310,7 +320,6 @@ footer input{
   flex-direction: column;
   flex-grow: 1;
   max-width: 100%;
-
 }
 
 .footer-posts a{
@@ -395,4 +404,64 @@ footer input{
 
 .ul-links li{
   margin-top: 10px;
+}
+
+.btn_view_themes{
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: .55rem 1.5rem .6rem;
+  font-family: "Graphik Web",sans-serif;
+  font-size: .85rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fff!important;
+  text-decoration: none!important;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: #4769d8;
+  border: 1px solid #4769d8;
+  border-radius: .2rem;
+  will-change: transform;
+  transition: background-color .15s ease-out,border-color .15s ease-out,color .15s ease-out;
+}
+
+
+
+.home-text-wrap{
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.home-text{
+  flex: 0 0 46%;
+  max-width: 46%;
+
+}
+
+.home-image{
+  position: relative;
+  top: -450px;
+  right: -570px;
+  margin-right: -400px;
+  max-width: 54%;
+  z-index: -1;
+}
+
+.home-h1{
+  line-height: 1.2;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.text-section-design{
+  margin-bottom: -400px;
+  margin-top: 50px;
+}
+
+.logo-line{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }

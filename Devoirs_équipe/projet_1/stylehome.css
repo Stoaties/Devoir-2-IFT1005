@@ -205,12 +205,13 @@ box-sizing: border-box;
 .dropdown:hover .dropdown-content {
 display: block;
 }
-/*main*/
+
 main{
  display:flex;
  justify-content: center;
  align-items:center;
 }
+
 .section_design{
   padding-bottom: 60px;
   margin-top: -20px;
@@ -301,6 +302,7 @@ h1{
   padding: .3rem 1.4rem .35rem;
   text-decoration:none;
 }
+
 .btn-all0themes:hover{
   background-color: #379b7d;
   border-color: #379b7d;
