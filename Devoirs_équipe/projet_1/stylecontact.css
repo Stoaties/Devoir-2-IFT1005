@@ -625,7 +625,7 @@ h2{
   right: -570px;
   margin-right: -400px;
   max-width: 54%;
-  z-index: 1;
+  z-index: -1;
 }
 .cs-section-themes{
   display: flex;
@@ -711,6 +711,3 @@ h2{
   font-weight: 500;
 }
 
-.home-text-wrap{
-  background-color: #fff;
-}
