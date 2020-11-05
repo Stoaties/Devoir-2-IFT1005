@@ -15,7 +15,7 @@ header{
 }
 
 body{
-	font-family: "mario";
+	font-family: impact;
 }
 
 ul{
@@ -27,6 +27,12 @@ ul{
 li{
 	padding: 2em;
 }
+
+li>a:hover{
+	font-size: 1.1em;
+	transition: 0.5s;
+}
+
 
 a{
 	text-decoration: none;
@@ -48,11 +54,12 @@ h1{
 	
 .header-background{
 	width: 100vw;
-	height: 90vh;
+	height: 130vh;
 	position: absolute;
-	top: 0px;
+	top: -200px;
 	left: 0px;
 	z-index: -1;
-	opacity: 0.5;
-	background-image: url('images/super-mario.jpg');
+	opacity: 0.55;
+	background-image: url('images/super-mario.gif');
+	
 }
