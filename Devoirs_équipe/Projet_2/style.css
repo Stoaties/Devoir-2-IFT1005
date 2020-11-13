@@ -41,6 +41,7 @@ a{
 
 h1{
 	font-size: 3em;
+	font-family: "mario";
 }
 
 .nav-wrap{
@@ -50,8 +51,6 @@ h1{
 
 }
 
-
-	
 .header-background{
 	width: 100vw;
 	height: 130vh;
