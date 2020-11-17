@@ -1,5 +1,25 @@
-svg {
-    width: 100%;
-    height: 100%;
+body {
+  background-color:#ffcb65;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cercle {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    animation: pouls 1s infinite;
   }
-  
+  @keyframes pouls {
+    0% {
+      opacity: 100%;
+      transform: scale(0);
+    }
+    100% {
+      opacity:0%;
+      transform: scale(1);
+    }
+  }
+
+
