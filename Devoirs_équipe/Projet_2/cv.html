@@ -13,20 +13,80 @@
 			<nav class="nav">
 				<ul>
 					<li><a href="#profil">Profil</a></li>
-					<li><a href="#info">Informations</a></li>
+					<li><a href="#experience">Super pouvoirs</a></li>
 					<li><a href="#education">Éducation</a></li>
-					<li><a href="#experience">Expérience</a></li>
 					<li><a href="#varia">Varia</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 			<h1>Mario</h1>
 		</div>
 	</header>
-	<section class="profil"></section>
-	<section class="info"></section>
-	<section class="education"></section>
+	<section class="profil">
+		<h1>It's-a-me, Mario!</h1>
+		<p>Je suis un plombier de profession, mais je passe tout mon temps à aller sauver ma bien-aimé, Princesse Peach!
+			j'ai fait ma première apparition dans le jeu Donkey Kong en 1981.</p>
+	</section>
 	<section class="experience"></section>
+	<h2>Saut</h2>
+	<p>mon abilité la plus connu est le saut, avec laquelle je combat les ennemis</p>
+	<h2>Boule de feu</h2>
+	<p>Après avoir mangé une fleur de feu, je peux cracher des boules de feux destructrices!</p>
+	<section class="education">
+		<h2>Doctorat en médecine</h2>
+		<h4> Kyoto University, obtenu en 1990</h4><br>
+		<h2>Baccalauréat en archéologie</h2>
+		<h4> Kyoto University, obtenu en 1995</h4><br>
+		<h2>Athlète professionnel</h2>
+		<h4>Tennis, 1995</h4>
+		<h4>Go-Kart, 1992</h4>
+		<h4>Golf, 1987</h4>
+		<h4>Baseball, 2005</h4>
+		<h4>Soccer, 2005</h4>
+		<h2>Organisateur d'événement (party)</h2>
+		<h4>événements personnalisés, 1998</h4>
+	</section>
 	<section class="varia"></section>
+	<h2>Mon premier nom était jumpman!</h2>
+	<p>Dans ma première apparition dans le jeu Donkey Kong, Mario se nommait jumpman. Il était aussi présenté comme
+		charpentier, et non comme plombier</p>
+	<h2>Je suis nommé en l'honneur de Mario Segale</h2>
+	<p>Mario Segale était le propriétaire du batiment où était situé les bureaux de Nintendo of America</p>
+	<h2>Ma casquette sert à cacher mes cheveux!</h2>
+	<p>Miyamoto trouvait difficile de dessiner des cheveux. Aussi, il a ajouté une moustache, qui se voyait mieux qu'une
+		bouche dans la résolution du jeu.</p>
+	<h2>Ma voix me vient de Charles Martinet!</h2>
+	<a href="https://www.youtube.com/watch?v=jcdIqTFgWRA&ab_channel=GreatBigStory">Voici un extrait!</a>
+	<h2>Mon ennemi se nomme Wario!</h2>
+	<p>Son nom provient d'une combinaison entre warui (qui signifie mauvais en japonais) et Mario.</p>
+	<h2>Je suis apparu dans plus de 200 jeux vidéos!</h2>
+	<p>Plus de 193 millions de copies ont été vendu au total.</p>
+	<h2>La musique du jeu est reconnu mondialement!</h2>
+	<p>Écrite par Koji Kondo, la musique a inspiré de nombreux fans, qui en ont fait de multiples versions.</p>
+	<section class="contact">
+		<h1>Vous êtes une princesse en détresse?</h1>
+		<p>Veuillez remplir ce formulaire et vous serez sauvé dès que possible</p>
+		<form action="#ref">
+			<label for="prenom">Prenom:</label><br>
+			<input type="text" id="prenom" name="prenom"><br>
+			<label for="nomfamille">Nom de famille:</label><br>
+			<input type="text" id="nomfamille" name="nomfamille"><br>
+			<label for="email">Courriel:</label>
+			<input type="email" id="email" name="email"><br>
+			<label for="phone">Numéro de téléphone:</label>
+			<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+			<label for="datekidnap">Date de l'enlèvement:</label>
+			<input type="date" id="datekidnap" name="datekidnap"><br>
+			<h2>Si Mario n'est pas disponible, qui voudriez-vous avoir comme sauveur?</h2>
+			<input type="checkbox" id="luigi" name="luigi" value="luigi">
+			<label for="luigi"> Luigi</label><br>
+			<input type="checkbox" id="wario" name="wario" value="wario">
+			<label for="wario"> Wario</label><br>
+			<input type="checkbox" id="waluigi" name="waluigi" value="waluigi">
+			<label for="waluigi">waluigi</label><br><br>
+			<input type="submit" value="À l'aide!">
+		</form>
+	</section>
 	<footer></footer>
 </body>
 
