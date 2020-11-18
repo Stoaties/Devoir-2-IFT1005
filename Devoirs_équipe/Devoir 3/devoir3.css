@@ -1,24 +1,24 @@
 body {
-  background-color:#ffcb65;  
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color:#ffcb65;
 }
 .cercle {
-    height: 50px;
-    width: 50px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 100%;
-    animation: pouls 1s infinite;
+  position: fixed;
+  top:-100%; right:-100%; left:-100%; bottom:-100%;
+  margin:auto;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  animation: pouls 1s infinite;
   }
   @keyframes pouls {
-    0% {
-      opacity: 100%;
-      transform: scale(0);
-    }
-    100% {
-      opacity:0%;
-      transform: scale(1);
+  0% {
+    opacity: 100%;
+    transform: scale(0);
+  }
+  100% {
+    opacity:0%;
+    transform: scale(1);
     }
   }
 
