@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="projet_2.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-background-contact"></div>
+        <div class="nav-wrap">
+            <nav class="nav">
+                <ul>
+                    <li><a href="cv.html">Profil</a></li>
+                    <li><a href="super_pouvoirs.html">Super pouvoirs</a></li>
+                    <li><a href="cv.html">Éducation</a></li>
+                    <li><a href="cv.html">Varia</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Mario</h1>
+        </div>
+    </header>
+    <section class="contact">
+        <h1>Vous etes une princesse en detresse?<br></h1>
+        <h2><br>Veuillez remplir ce formulaire et vous serez sauvé dès que possible</h2>
+        <!-- ajuster l'action pour envoyer au bon endroit -->
+        <form name="contactForm">
+            <label for="prenom">Prenom:</label>
+            <input type="text" id="prenom" name="prenom"><br>
+            <label for="nomfamille">Nom de famille:</label>
+            <input type="text" id="nomfamille" name="nomfamille"><br>
+            <label for="email">Courriel:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Numéro de téléphone:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+            <label for="datekidnap">Date de l'enlèvement:</label>
+            <input type="date" id="datekidnap" name="datekidnap"><br>
+            <h2>Si Mario n'est pas disponible, qui voudriez-vous avoir comme sauveur?</h2>
+            <label class="container-checkbox">Luigi
+                <input type="checkbox" id="luigi" name="luigi" value="luigi">
+                <span class="checkmark"></span><br>
+            </label>
+            <label class="container-checkbox">Wario
+                <input type="checkbox" id="wario" name="wario" value="wario">
+                <span class="checkmark"></span><br>
+            </label>
+            <label class="container-checkbox">Waluigi
+                <input type="checkbox" id="waluigi" name="waluigi" value="waluigi">
+                <span class="checkmark"></span><br>
+            </label>
+            <div class="container-button">
+                <button onclick="help()" class="btn"><img src="images/1200px-MushroomMarioKart8.png">A l'aide!</button>
+            </div>
+        </form>
+    </section>
+    <footer></footer>
+</body>
+
+</html>

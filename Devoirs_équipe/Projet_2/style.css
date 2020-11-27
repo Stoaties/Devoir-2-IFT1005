@@ -8,7 +8,7 @@
 }
 
 header{
-	height: 100vh;
+	height: 10vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -62,3 +62,159 @@ h1{
 	background-image: url('images/super-mario.gif');
 	
 }
+ /* page contact */
+ .header-background-contact{
+padding-top: 60px;
+height:50px;
+text-align: center;
+background: #ffffff;
+color: rgb(0, 0, 0);
+font-size: 30px;
+}
+
+
+.contact{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-content: center;
+margin-top:0;
+padding: 10em;
+background-image: url(images/mario-peach.png);
+background-color: #ffffff;
+background-repeat:no-repeat;
+background-attachment: fixed;
+background-position:right bottom;
+	
+}
+ input[type=text],[type=email],[type=tel], [type=date], select{
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid rgb(248, 2, 2);
+	border-radius: 100px;
+	box-sizing: border-box;
+  }
+  h2{
+	  margin:2em;
+  }
+  
+ .container-button {
+	padding-top:10em;
+	position: absolute;
+	width: 100%;
+	max-width: 100px;
+  }
+  
+  .container-button img {
+	width: 100%;
+	height: auto;
+	
+  }
+  
+  .container-button .btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #f1f1f1;
+	color: black;
+	font-family: "mario";
+	
+	font-size: 16px;
+	padding: 16px 30px;
+	border: none;
+	cursor: pointer;
+	text-align: center;	
+	border-radius: 50%;
+  }
+  
+  .container-button .btn:hover {
+	background-color: red;
+	color: white;
+  }
+  
+.container-checkbox {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  .container-checkbox input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+  }
+  
+  .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: rgb(201, 190, 190);
+  }
+  
+  .container-checkbox:hover input ~ .checkmark {
+	background-color: rgb(28, 31, 218);
+  }
+    
+  .container-checkbox input:checked ~ .checkmark {
+	background-color: #f32121;
+  }
+  
+  .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  
+  .container-checkbox input:checked ~ .checkmark:after {
+	display: block;
+  }
+  
+  .container-checkbox .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+  }
+
+  /* page super_pouvoirs */
+.super_pouvoirs{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	min-width: 50%;
+	}
+
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 50%;
+}
+.header-background-pouvoir{
+	padding-top: 60px;
+	height:50px;
+	text-align: center;
+	background: #ffffff;
+	color: rgb(0, 0, 0);
+	font-size: 30px;
+	}
