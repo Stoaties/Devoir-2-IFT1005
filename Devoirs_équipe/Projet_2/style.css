@@ -59,8 +59,7 @@ h1{
 	left: 0px;
 	z-index: -1;
 	opacity: 0.55;
-	background-image: url('images/super-mario.gif');
-	
+	background-image: url('images/super-mario.gif');	
 }
  /* page contact */
  .header-background-contact{
@@ -197,24 +196,124 @@ background-position:right bottom;
   }
 
   /* page super_pouvoirs */
+
 .super_pouvoirs{
 	display:flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	min-width: 50%;
+	padding:20px;
+    min-height: 100%;
+	background-image: url('images/Mario_Cape_SMA.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right;
 	}
 
-#myVideo {
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	min-width: 50%;
+.leftSide{
+	margin:10em;
+	flex-direction: column;
+	justify-content: center;
 }
-.header-background-pouvoir{
-	padding-top: 60px;
-	height:50px;
+ul.power {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color:rgb(202, 39, 39);
+	flex-direction: column;
+	flex-wrap: wrap;
 	text-align: center;
-	background: #ffffff;
-	color: rgb(0, 0, 0);
-	font-size: 30px;
+	display: flex;
+	height: 100vh;
+	font-size: 20px;
+
+  }
+ ul.power li {
+	 width:33.333333%; float:left;
+	 min-height:50px;
+}
+.leaf .tanooki .wingcap .bee .squirrel .kart{
+  display: block;
+}
+.leaf:hover {
+	background: url('images/120px-Smb3_super_leaf.png');
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.leaf:hover .text{
+	display:none;
+}
+.tanooki:hover {
+	background: url('images/TanookiMarioStamp-SM3DW.png');
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.tanooki:hover .text{
+	display:none;
+}
+.wingcap:hover {
+	background: url('images/200px-WingMarioSM64DS.png');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:50%;
+}
+.wingcap:hover .text{
+	display:none;
+}
+.bee:hover {
+	background: url('images/120px-Bee_Mario.jpg');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:50%;
+}
+.bee:hover .text{
+	display:none;
+}
+.squirrel:hover {
+	background: url('images/1200px-NSMBU_Flying_Squirrel_Mario_Artwork.png');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:40%;
+}
+.squirrel:hover .text{
+	display:none;
+}
+.kart:hover {
+	background: url('images/1200px-MarioGlider3DS.png');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:60%;
+}
+.kart:hover .text{
+	display:none;
+}
+
+/*footer*/
+
+footer {
+  width: 100%;
+  display: inline-block;
+  height: 100px;
+  background-color: rgb(4, 15, 173);
+  background-image: url('images/220px-MarioNSMBUDeluxe.png');
+  opacity:75%;
+}
+
+.copyright {
+    width: 50%;
+	float: left;
+}
+
+p {padding-left: 10%;
+      color: white;
+      font-size: 1em;
+      line-height: 70px;
+      text-transform: capitalize;
+	  letter-spacing: 1px;
+}
+
+ a {
+      float: left;
+      line-height: 70px;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+	  font-weight: bold;
 	}
