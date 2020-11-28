@@ -294,6 +294,7 @@ footer {
   background-color: rgb(4, 15, 173);
   background-image: url('images/220px-MarioNSMBUDeluxe.png');
   opacity:75%;
+  flex-shrink: 0;
 }
 
 .copyright {

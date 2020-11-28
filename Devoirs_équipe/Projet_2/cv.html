@@ -4,6 +4,26 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+	<script>
+
+		$(function () {
+
+
+			var people = [];
+
+			$.getJSON('test.json', function (data) {
+				console.log(data.person[0].firstName)
+				$.each(data.person, function (i, f) {
+					var tblRow = "<tr>" + "<td>" + f.firstName + "</td>" +
+						"<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
+					$(tblRow).appendTo("#userdata tbody");
+				});
+
+			});
+
+		});
+	</script>
 </head>
 
 <body>
@@ -23,48 +43,26 @@
 		</div>
 	</header>
 	<section class="profil">
-		<h1>It's-a-me, Mario!</h1>
-		<p>Je suis un plombier de profession, mais je passe tout mon temps à aller sauver ma bien-aimé, Princesse Peach!
-			j'ai fait ma première apparition dans le jeu Donkey Kong en 1981.</p>
+		<table id="userdata" border="2">
+			<thead>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email Address</th>
+				<th>City</th>
+			</thead>
+			<tbody>
+
+			</tbody>
+		</table>
 	</section>
 	<section class="experience"></section>
-	<section class="education">
-		<h2>Doctorat en médecine</h2>
-		<h4> Kyoto University, obtenu en 1990</h4><br>
-		<h2>Baccalauréat en archéologie</h2>
-		<h4> Kyoto University, obtenu en 1995</h4><br>
-		<h2>Athlète professionnel</h2>
-		<h4>Tennis, 1995</h4>
-		<h4>Go-Kart, 1992</h4>
-		<h4>Golf, 1987</h4>
-		<h4>Baseball, 2005</h4>
-		<h4>Soccer, 2005</h4>
-		<h2>Organisateur d'événement (party)</h2>
-		<h4>événements personnalisés, 1998</h4>
-	</section>
+	<section class="education"> </section>
 	<section class="varia"></section>
-	<h2>Mon premier nom était jumpman!</h2>
-	<p>Dans ma première apparition dans le jeu Donkey Kong, Mario se nommait jumpman. Il était aussi présenté comme
-		charpentier, et non comme plombier</p>
-	<h2>Je suis nommé en l'honneur de Mario Segale</h2>
-	<p>Mario Segale était le propriétaire du batiment où était situé les bureaux de Nintendo of America</p>
-	<h2>Ma casquette sert à cacher mes cheveux!</h2>
-	<p>Miyamoto trouvait difficile de dessiner des cheveux. Aussi, il a ajouté une moustache, qui se voyait mieux qu'une
-		bouche dans la résolution du jeu.</p>
-	<h2>Ma voix me vient de Charles Martinet!</h2>
-	<a href="https://www.youtube.com/watch?v=jcdIqTFgWRA&ab_channel=GreatBigStory">Voici un extrait!</a>
-	<h2>Mon ennemi se nomme Wario!</h2>
-	<p>Son nom provient d'une combinaison entre warui (qui signifie mauvais en japonais) et Mario.</p>
-	<h2>Je suis apparu dans plus de 200 jeux vidéos!</h2>
-	<p>Plus de 193 millions de copies ont été vendu au total.</p>
-	<h2>La musique du jeu est reconnu mondialement!</h2>
-	<p>Écrite par Koji Kondo, la musique a inspiré de nombreux fans, qui en ont fait de multiples versions.</p>
 
 	<footer class="footer-background">
 		<div class="copyright">
 			<p>2020 - IFT1005</p>
 		</div>
-
 	</footer>
 </body>
 
