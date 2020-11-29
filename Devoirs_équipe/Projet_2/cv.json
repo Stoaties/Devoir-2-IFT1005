@@ -1,21 +1,17 @@
 {
-    "person": [
-        {
-            "firstName": "Mario",
-            "job": "Plombier",
-            "roll": 20
-        },
-        {
-            "firstName": "Bruce",
-            "lastName": "Wayne",
-            "job": "Playboy",
-            "roll": 30
-        },
-        {
-            "firstName": "Peter",
-            "lastName": "Parker",
-            "job": "Photographer",
-            "roll": 40
-        }
-    ]
+    "Nom": "Mario",
+    "Emploi": "plombier",
+    "profilPic": "https://www.tvovermind.com/wp-content/uploads/2017/09/mario.jpg",
+    "DK": "Donkey Kong",
+    "DKAnnee": 1981,
+    "MB": "Mario Bros.",
+    "MBAnnee": 1983,
+    "SP64": "Super Mario 64",
+    "SP64Annee": 1996,
+    "SMS": "Super Mario Sunshine",
+    "SMSAnnee": 2002,
+    "SMG": "Super Mario Galaxy",
+    "SMGAnnee": 2007,
+    "SMO": "Super Mario Odyssey",
+    "SMOAnnee": 2017
 }
