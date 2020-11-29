@@ -1,7 +1,7 @@
 {
     "Nom": "Mario",
-    "Emploi": "plombier",
-    "profilPic": "https://www.tvovermind.com/wp-content/uploads/2017/09/mario.jpg",
+    "Emploi": "plombier (1983, present)",
+    "profilPic": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/MarioNSMBUDeluxe.png/220px-MarioNSMBUDeluxe.png",
     "DK": "Donkey Kong",
     "DKAnnee": 1981,
     "MB": "Mario Bros.",
@@ -13,5 +13,10 @@
     "SMG": "Super Mario Galaxy",
     "SMGAnnee": 2007,
     "SMO": "Super Mario Odyssey",
-    "SMOAnnee": 2017
+    "SMOAnnee": 2017,
+    "MD": "Doctorat en médecine, Tokyo University 1990",
+    "Ten": "Tennisman, Champion Mondial, 1995, 2000, 2004, 2005, 2012, 2015",
+    "Gol": "Golfeur, Champion Mondial, 1999, 2003, 2004, 2014",
+    "Party": "Organisateur professionnel d'événement privée (style party avec plusieurs jeux)",
+    "Kart": "Go Kart avec obstacles"
 }

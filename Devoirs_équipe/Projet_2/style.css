@@ -66,6 +66,31 @@ h1{
 	opacity: 0.55;
 	background-image: url('images/super-mario.gif');	
 }
+/* page cv */
+.cv{
+	text-align:left;
+	padding-left:200px;
+	line-height: 1.6;
+	font-family: "mario";
+}
+.cv h1 {
+	font-size:100px;
+}
+.cv h2 {
+	font-size:80px;
+	text-emphasis: none;
+}
+.cv h3 {
+	font-size:70px;
+}
+.cv a {
+	color:red;
+	text-decoration:none;
+	font-size:70px;
+}
+.cv p {
+	font-size:30px;
+}
  /* page contact */
  .header-background-contact{
 text-align: center;

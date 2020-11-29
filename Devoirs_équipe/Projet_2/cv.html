@@ -11,14 +11,18 @@
 
 			$.getJSON('cv.json', function (data) {
 				document.getElementById("nom").innerHTML = data.Nom;
-				document.getElementById("profilPic").innerHTML = data.profilPic;
+				document.getElementById("profilPic").innerHTML = "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/MarioNSMBUDeluxe.png/220px-MarioNSMBUDeluxe.png";
 				document.getElementById("plumb").innerHTML = data.Emploi;
 				document.getElementById("donkey").innerHTML = data.DK + " (" + data.DKAnnee + ")";
 				document.getElementById("mb").innerHTML = data.MB + " (" + data.MBAnnee + ")";
 				document.getElementById("sms").innerHTML = data.SMS + " (" + data.SMSAnnee + ")";
 				document.getElementById("smg").innerHTML = data.SMG + " (" + data.SMGAnnee + ")";
 				document.getElementById("smo").innerHTML = data.SMO + " (" + data.SMOAnnee + ")";
-
+				document.getElementById("md").innerHTML = data.MD;
+				document.getElementById("tennis").innerHTML = data.Ten;
+				document.getElementById("golf").innerHTML = data.Gol;
+				document.getElementById("party").innerHTML = data.Party;
+				document.getElementById("kart").innerHTML = data.Kart;
 			});
 
 		});
@@ -41,26 +45,33 @@
 			<h1>Mario</h1>
 		</div>
 	</header>
-	<section class="profil">
-		<h1>CV</h1>
-		<h2 id="nom"></h2>
-		<p id="profilPic"></p>
-	</section>
-	<section class="experience">
-		<h1>Experience</h1>
-		<p id="donkey"></p>
-		<p id="mb"></p>
-		<p id="sp64"></p>
-		<p id="sms"></p>
-		<p id="smg"></p>
-		<p id="smo"></p>
-		<h1>Formation</h1>
-		<h1>Emploi</h1>
-		<p id="plumb"></p>
-		<h1>Passe-temps</h1>
-	</section>
-	<section class="education"></section>
-	<section class="varia"></section>
+	<div class="cv">
+		<section class="profil">
+			<h1>CV</h1>
+			<h2 id="nom"></h2>
+			<a href="contact.html">Contact</a>
+			<p id="profilPic"></p>
+		</section>
+		<section class="experience">
+			<h1>Experience</h1>
+			<p id="donkey"></p>
+			<p id="mb"></p>
+			<p id="sp64"></p>
+			<p id="sms"></p>
+			<p id="smg"></p>
+			<p id="smo"></p>
+			<h1>Emploi</h1>
+			<h3 id="plumb"></h3>
+			<p id="md"></p>
+			<p id="tennis"></p>
+			<p id="golf"></p>
+			<h1>Passe-temps</h1>
+			<p id="party"></p>
+			<p id="kart"></p>
+		</section>
+		<section class="education"></section>
+		<section class="varia"></section>
+	</div>
 
 	<footer>
 
