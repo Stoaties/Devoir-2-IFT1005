@@ -8,12 +8,10 @@
 	<script>
 
 		$(function () {
-
 			$.getJSON('cv.json', function (data) {
 				document.getElementById("nom").innerHTML = data.Nom;
-				document.getElementById("profilPic").innerHTML = "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/MarioNSMBUDeluxe.png/220px-MarioNSMBUDeluxe.png";
-				document.getElementById("plumb").innerHTML = data.Emploi;
-				document.getElementById("donkey").innerHTML = data.DK + " (" + data.DKAnnee + ")";
+				document.getElementById("plumb").innerHTML = data.EmploiPresent;
+				document.getElementById("donkey").innerHTML = data.emploi[{ dk }];
 				document.getElementById("mb").innerHTML = data.MB + " (" + data.MBAnnee + ")";
 				document.getElementById("sms").innerHTML = data.SMS + " (" + data.SMSAnnee + ")";
 				document.getElementById("smg").innerHTML = data.SMG + " (" + data.SMGAnnee + ")";
@@ -50,7 +48,7 @@
 			<h1>CV</h1>
 			<h2 id="nom"></h2>
 			<a href="contact.html">Contact</a>
-			<p id="profilPic"></p>
+			<div class="img-container"></div>
 		</section>
 		<section class="experience">
 			<h1>Experience</h1>
