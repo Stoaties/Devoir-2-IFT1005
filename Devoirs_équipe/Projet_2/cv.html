@@ -7,7 +7,9 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
 	<script>
 
-		$(function () {
+
+
+		
 			$.getJSON('cv.json', function (data) {
 				document.getElementById("nom").innerHTML = data.Nom;
 				document.getElementById("plumb").innerHTML = data.EmploiPresent;
@@ -21,15 +23,15 @@
 				document.getElementById("golf").innerHTML = data.Gol;
 				document.getElementById("party").innerHTML = data.Party;
 				document.getElementById("kart").innerHTML = data.Kart;
+				document.getElementById("formation").innerHTML = data.EmploiPresent;
 			});
 
-		});
 	</script>
 </head>
 
 <body>
 	<header>
-		<div class="header-background"></div>
+
 		<div class="nav-wrap">
 			<nav class="nav">
 				<ul>
@@ -44,36 +46,43 @@
 		</div>
 	</header>
 	<div class="cv">
+		<h1>CV</h1>
 		<section class="profil">
-			<h1>CV</h1>
-			<h2 id="nom"></h2>
-			<a href="contact.html">Contact</a>
+			<h2>Informations personnelles</h2>	
+			<p id="nom"></p>
 			<div class="img-container"></div>
 		</section>
 		<section class="experience">
-			<h1>Experience</h1>
-			<p id="donkey"></p>
-			<p id="mb"></p>
-			<p id="sp64"></p>
-			<p id="sms"></p>
-			<p id="smg"></p>
-			<p id="smo"></p>
-			<h1>Emploi</h1>
-			<h3 id="plumb"></h3>
-			<p id="md"></p>
-			<p id="tennis"></p>
-			<p id="golf"></p>
-			<h1>Passe-temps</h1>
-			<p id="party"></p>
-			<p id="kart"></p>
-		</section>
-		<section class="education"></section>
-		<section class="varia"></section>
-	</div>
+			<h2>Experience</h1>
+				<p id="donkey"></p>
+				<p id="mb"></p>
+				<p id="sp64"></p>
+				<p id="sms"></p>
+				<p id="smg"></p>
+				<p id="smo"></p>
+				<h2>Emploi</h1>
+					<h3 id="plumb"></h3>
+					<p id="md"></p>
+					<p id="tennis"></p>
+					<p id="golf"></p>
+					<h2>Passe-temps</h1>
+						<p id="party"></p>
+						<p id="kart"></p>
+					</section>
+					<section class="education">
+						<h2>Éducation</h2>
+						<p id="formation"></p>
+					</section>
+					<section class="varia">
+						<h2>Varia</h2>
+					</section>
+					<div>
+						<a href="contact.html" class="bouton">Contact</a>
+					</div>
+				</div>
+				<footer>
 
-	<footer>
+				</footer>
+			</body>
 
-	</footer>
-</body>
-
-</html>
+			</html>

@@ -7,22 +7,31 @@
 	src : url('fonts/SuperMarioBros-ov7d.ttf');
 }
 
-header{
-	height: 10vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+@font-face{
+	font-family: "old";
+	src : url('fonts/OldSchoolAdventures-42j9.ttf');
 }
 
 body{
-font-family: impact;
-display: flex;
-flex-direction: column;
-height: 100%;
-flex: 1 0 auto;
-padding: 20px;
-}
+	font-family: impact;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	flex: 1 0 auto;
+	padding: 20px;
+	background-image: url('images/cloud.png');
+	background-repeat:repeat-y;
 
+	
+}
+	
+	/*
+	width: 100vw;
+	position: absolute;
+	z-index: -1;
+	background-image: url('images/cloud.png');
+	background-repeat:repeat-y;
+	*/
 ul{
 	list-style: none;
 	display: flex;
@@ -38,6 +47,10 @@ li>a:hover{
 	transition: 0.5s;
 }
 
+li>a{
+	font-size: 1em;
+	transition: 0.5s;
+}
 
 a{
 	text-decoration: none;
@@ -46,39 +59,45 @@ a{
 
 h1{
 	font-size: 3em;
-	font-family: "mario";
+	font-family: "old";
 }
 
 .nav-wrap{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-family: old;
 
 }
 
 .header-background{
-	width: 100vw;
-	height: 130vh;
-	position: absolute;
-	top: -200px;
-	left: 0px;
-	z-index: -1;
-	opacity: 0.55;
-	background-image: url('images/super-mario.gif');	
+	
+	
+
 }
 /* page cv */
+/*.background{
+	background-image: url('images/super-mario.gif');
+	z-index: -1;
+	opacity: 1;
+}
+*/
 .cv{
 	text-align:left;
 	padding-left:200px;
+	padding-right:200px;
 	line-height: 1.6;
-	font-family: "mario";
+	font-family: "old";
+	display: flex;
+	flex-direction: column;
+
 }
+/*
 .cv h1 {
-	font-size:100px;
+	
 }
 .cv h2 {
 	font-size:80px;
-	text-emphasis: none;
 }
 .cv h3 {
 	font-size:70px;
@@ -91,29 +110,30 @@ h1{
 .cv p {
 	font-size:30px;
 }
- /* page contact */
- .header-background-contact{
-text-align: center;
-background: #ffffff;
-color: rgb(0, 0, 0);
-font-size: 30px;
+*/
+/* page contact */
+.header-background-contact{
+	text-align: center;
+	background: #ffffff;
+	color: rgb(0, 0, 0);
+	font-size: 30px;
 }
 
 .contact{
-display: flex;
-flex-wrap: wrap;
-justify-content: flex-start;
-align-content: center;
-margin-top:0;
-padding: 10em;
-background-image: url(images/mario-peach.png);
-background-color: #ffffff;
-background-repeat:no-repeat;
-background-attachment: fixed;
-background-position:right bottom;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: center;
+	margin-top:0;
+	padding: 10em;
+	background-image: url(images/mario-peach.png);
+	background-color: #ffffff;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position:right bottom;
 	
 }
- input[type=text],[type=email],[type=tel], [type=date], select{
+input[type=text],[type=email],[type=tel], [type=date], select{
 	width: 50%;
 	padding: 12px 20px;
 	margin: 8px 0;
@@ -121,25 +141,22 @@ background-position:right bottom;
 	border: 1px solid rgb(248, 2, 2);
 	border-radius: 100px;
 	box-sizing: border-box;
-  }
-  h2{
-	  margin:2em;
-  }
-  
- .container-button {
+}
+
+.container-button {
 	padding-top:10em;
 	position: absolute;
 	width: 100%;
 	max-width: 100px;
-  }
-  
-  .container-button img {
+}
+
+.container-button img {
 	width: 100%;
 	height: auto;
 	
-  }
-  
-  .container-button .btn {
+}
+
+.container-button .btn {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -147,7 +164,7 @@ background-position:right bottom;
 	-ms-transform: translate(-50%, -50%);
 	background-color: #f1f1f1;
 	color: black;
-	font-family: "mario";
+	font-family: "old";
 	
 	font-size: 16px;
 	padding: 16px 30px;
@@ -155,13 +172,13 @@ background-position:right bottom;
 	cursor: pointer;
 	text-align: center;	
 	border-radius: 50%;
-  }
-  
-  .container-button .btn:hover {
+}
+
+.container-button .btn:hover {
 	background-color: red;
 	color: white;
-  }
-  
+}
+
 .container-checkbox {
 	display: block;
 	position: relative;
@@ -173,44 +190,44 @@ background-position:right bottom;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-  }
-  
-  .container-checkbox input {
+}
+
+.container-checkbox input {
 	position: absolute;
 	opacity: 0;
 	cursor: pointer;
 	height: 0;
 	width: 0;
-  }
-  
-  .checkmark {
+}
+
+.checkmark {
 	position: absolute;
 	top: 0;
 	left: 0;
 	height: 25px;
 	width: 25px;
 	background-color: rgb(201, 190, 190);
-  }
-  
-  .container-checkbox:hover input ~ .checkmark {
+}
+
+.container-checkbox:hover input ~ .checkmark {
 	background-color: rgb(28, 31, 218);
-  }
-    
-  .container-checkbox input:checked ~ .checkmark {
+}
+
+.container-checkbox input:checked ~ .checkmark {
 	background-color: #f32121;
-  }
-  
-  .checkmark:after {
+}
+
+.checkmark:after {
 	content: "";
 	position: absolute;
 	display: none;
-  }
-  
-  .container-checkbox input:checked ~ .checkmark:after {
+}
+
+.container-checkbox input:checked ~ .checkmark:after {
 	display: block;
-  }
-  
-  .container-checkbox .checkmark:after {
+}
+
+.container-checkbox .checkmark:after {
 	left: 9px;
 	top: 5px;
 	width: 5px;
@@ -220,19 +237,19 @@ background-position:right bottom;
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
-  }
+}
 
-  /* page super_pouvoirs */
+/* page super_pouvoirs */
 
 .super_pouvoirs{
 	display:flex;
 	padding:20px;
-    min-height: 100%;
+	min-height: 100%;
 	background-image: url('images/Mario_Cape_SMA.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: right;
-	}
+}
 
 .leftSide{
 	margin:10em;
@@ -251,13 +268,13 @@ ul.power {
 	height: 100vh;
 	font-size: 20px;
 
-  }
- ul.power li {
-	 width:33.333333%; float:left;
-	 min-height:50px;
+}
+ul.power li {
+	width:33.333333%; float:left;
+	min-height:50px;
 }
 .leaf .tanooki .wingcap .bee .squirrel .kart{
-  display: block;
+	display: block;
 }
 .leaf:hover {
 	background: url('images/120px-Smb3_super_leaf.png');
@@ -310,6 +327,15 @@ ul.power {
 }
 .kart:hover .text{
 	display:none;
+}
+
+.bouton{
+	color: white;
+	border-color: black;
+	border-style: solid;
+	border-radius: 10%;
+	text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	width: auto;
 }
 
 /*footer*/
