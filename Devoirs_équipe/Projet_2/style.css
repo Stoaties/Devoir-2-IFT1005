@@ -79,7 +79,8 @@ h1{
 	border-color: black;
 	border-radius: 3px;
 	border-style: solid;
-	background-color: lightblue;
+	background-color: #BAFCF7;
+	padding: 1em 1em 1em 1em;
 }
 
 .cv{
@@ -95,6 +96,15 @@ h1{
 
 .profil{
 	line-height: 2em;
+}
+
+#varia-images{
+	display: flex;
+	align-items: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+
+
 }
 
 .varia-img-container{
@@ -347,7 +357,6 @@ ul.power li {
 .bouton:hover{
 	opacity: 1;
 	transition-duration: 0.3s;
-	
 }
 
 .bouton-container{
