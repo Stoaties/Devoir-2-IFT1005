@@ -295,6 +295,7 @@ input[type=text],[type=email],[type=tel], [type=date], select{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: right;
+	line-height: 2;
 }
 
 .leftSide{
@@ -342,16 +343,16 @@ ul.power li {
 	background: url('images/200px-WingMarioSM64DS.png');
 	background-repeat: no-repeat;
 	background-position:center;
-	background-size:50%;
+	background-size:35%;
 }
 .wingcap:hover .text{
 	display:none;
 }
 .bee:hover {
-	background: url('images/120px-Bee_Mario.jpg');
+	background: url('images/1200px-Bee_Mario_Super_Mario_Galaxy.png');
 	background-repeat: no-repeat;
 	background-position:center;
-	background-size:50%;
+	background-size:20%;
 }
 .bee:hover .text{
 	display:none;
@@ -360,7 +361,7 @@ ul.power li {
 	background: url('images/1200px-NSMBU_Flying_Squirrel_Mario_Artwork.png');
 	background-repeat: no-repeat;
 	background-position:center;
-	background-size:40%;
+	background-size:28%;
 }
 .squirrel:hover .text{
 	display:none;
@@ -369,7 +370,7 @@ ul.power li {
 	background: url('images/1200px-MarioGlider3DS.png');
 	background-repeat: no-repeat;
 	background-position:center;
-	background-size:60%;
+	background-size:35%;
 }
 .kart:hover .text{
 	display:none;
