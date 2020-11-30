@@ -1,6 +1,9 @@
 {
-    "Nom": "Mario",
-    "emplois": ["plombier (1983, present)"],
+    "nom": "Mario",
+    "age":25,
+    "adresse":"11-1 Kamitoba Hokodatecho, Minami Ward, Kyoto, 601-8501, Japon",
+    "tel":"+81 570-011-120",
+    "emplois": ["Plombier (1983, present)"],
     "image": "images/MarioProfil1.png",
     "experiences": [
         {
@@ -33,9 +36,14 @@
         "Tennisman, Champion Mondial, 1995, 2000, 2004, 2005, 2012, 2015",
         "Golfeur, Champion Mondial, 1999, 2003, 2004, 2014"
     ],
-    "Hobby": [
+    "hobby": [
         "Organisateur professionnel d'événement privée (style party avec plusieurs jeux)",
         "Go Kart avec obstacles",
         "Cueillette de champignons"
+    ],
+    "photo":[
+        "portrait1.jpg",
+        "portrait2.jpg",
+        "portrait3.jpg"
     ]
 }

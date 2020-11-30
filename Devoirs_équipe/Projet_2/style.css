@@ -70,12 +70,10 @@ h1{
 }
 
 /* page cv */
-/*.background{
-	background-image: url('images/super-mario.gif');
-	z-index: -1;
-	opacity: 1;
+
+.cv h1{
+	padding-bottom: 1em;
 }
-*/
 
 #img-cv{
 	border-color: black;
@@ -87,31 +85,34 @@ h1{
 .cv{
 	text-align:left;
 	padding-left:12em;
+	padding-right: 12em;
 	line-height: 3em;
 	font-family: "old";
 	display: flex;
 	flex-direction: column;
 
 }
-/*
-.cv h1 {
-	
+
+.profil{
+	line-height: 2em;
 }
-.cv h2 {
-	font-size:80px;
+
+.varia-img-container{
+	height: 10vw;
+	width: auto;
+	padding-left: 2em;
+	padding-top: 2em;
+	opacity: 0.5;
+	transition: 0.3s;
 }
-.cv h3 {
-	font-size:70px;
+
+.varia-img-container:hover{
+	opacity: 1;
+	height: 11vw;
+	width: auto;
+	transition: 0.3s;
 }
-.cv a {
-	color:red;
-	text-decoration:none;
-	font-size:70px;
-}
-.cv p {
-	font-size:30px;
-}
-*/
+
 /* page contact */
 .header-background-contact{
 	text-align: center;
@@ -332,14 +333,27 @@ ul.power li {
 
 .bouton{
 	color: white;
-	border-color: black;
-	border-style: solid;
-	border-radius: 10%;
-	text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	text-shadow:-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 	width: auto;
+	font-size: 1.5em;
+	padding: 0.2em 0.2em 0.2em 0.2em;
+	background-image: url("images/brick.png");
+	background-size: 2.2em;
+	background-repeat: repeat-x;
+	opacity: 0.85;
+	transition-duration: 0.3s;
 }
 
+.bouton:hover{
+	opacity: 1;
+	transition-duration: 0.3s;
+	
+}
 
+.bouton-container{
+	margin-top: 5em;
+	align-self: center;
+}
 
 /*footer*/
 

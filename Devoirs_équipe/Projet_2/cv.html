@@ -8,16 +8,13 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
 	<script>
 		$.getJSON('cv.json', function (data) {
-			document.getElementById("nom").innerHTML = data.Nom;
-			
-			/*document.getElementById("donkey").innerHTML = data.emploi[{ dk }];
-			document.getElementById("mb").innerHTML = data.MB + " (" + data.MBAnnee + ")";
-			document.getElementById("sms").innerHTML = data.SMS + " (" + data.SMSAnnee + ")";
-			document.getElementById("smg").innerHTML = data.SMG + " (" + data.SMGAnnee + ")";
-			document.getElementById("smo").innerHTML = data.SMO + " (" + data.SMOAnnee + ")";*/
+			document.getElementById("nom").innerHTML = "Nom: " + data.nom;
+			document.getElementById("age").innerHTML = "Age: " + data.age;
+			document.getElementById("adresse").innerHTML = "Adresse: " + data.adresse;
+			document.getElementById("tel").innerHTML = "Numéro de téléphone: " + data.tel;
 			document.getElementById("img-cv").src = data.image;
 
-			
+			document.getElementById("emplois").innerHTML = data.emplois[0];
 
 			var exp = data.experiences;
 			var expList = [];
@@ -26,7 +23,6 @@
 				var expElem = exp[i].experience + " (" + exp[i].annee + ")";
 				expList.push(expElem);
 			}
-			console.log(expList)
 			var temp2 = expList.toString();
 			var temp3 = temp2.replace(/,/g,"<br>");
 			document.getElementById("experiences").innerHTML=temp3;
@@ -36,10 +32,30 @@
 
 			//document.getElementById("emplois").innerHTML= test;
 
-			var hobbies = data.Hobby.toString();
+			var hobbies = data.hobby.toString();
 			var temp = hobbies.replace(/,/g,"<br>");
 			document.getElementById("passe-temps").innerHTML = temp;
+
+			var formation = data.formation;
+			var formString = "";
+			for (var i = 0; i < formation.length; i++) {
+				var temp = formation[i].toString();				
+				if(i==formation.length-1){
+					formString = formString + temp;
+				}else{
+					formString = formString + temp +";";
+				}
+			}
+			var formations =  formString.replace(/;/g,"<br>");
+			document.getElementById("formation").innerHTML = formations;
+			console.log(formString);
 			
+			var images = "";
+			for (var i = 0; i < data.photo.length; i++) {
+				images = images + "<img class = 'varia-img-container' src='images/" + data.photo[i] + "'>";
+				console.log(images);
+			}
+			document.getElementById("varia-images").innerHTML = images;
 		});
 	</script>
 </head>
@@ -47,14 +63,12 @@
 <body>
 	<div class="background"></div>
 	<header>
-
+		<img src="">
 		<div class="nav-wrap">
 			<nav class="nav">
 				<ul>
 					<li><a href="cv.html">Profil</a></li>
 					<li><a href="super_pouvoirs.html">Super pouvoirs</a></li>
-					<li><a href="cv.html">Éducation</a></li>
-					<li><a href="cv.html">Varia</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
@@ -66,6 +80,9 @@
 		<section class="profil">
 			<h2>Informations personnelles</h2>	
 			<p id="nom"></p>
+			<p id="age"></p>
+			<p id="adresse"></p>
+			<p id="tel"></p>
 			<img id="img-cv" src="">
 		</section>
 		<section class="">
@@ -82,8 +99,9 @@
 		</section>
 		<section class="varia">
 			<h2>Varia</h2>
+			<p id="varia-images"></p>
 		</section>
-		<div>
+		<div class="bouton-container">
 			<a href="contact.html" class="bouton">Contact</a>
 		</div>
 	</div>
