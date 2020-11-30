@@ -1,34 +1,36 @@
 {
     "nom": "Mario",
-    "age":25,
-    "adresse":"11-1 Kamitoba Hokodatecho, Minami Ward, Kyoto, 601-8501, Japon",
-    "tel":"+81 570-011-120",
-    "emplois": ["Plombier (1983, present)"],
+    "age": 25,
+    "adresse": "11-1 Kamitoba Hokodatecho, Minami Ward, Kyoto, 601-8501, Japon",
+    "tel": "+81 570-011-120",
+    "emplois": [
+        "Plombier (1983, present)"
+    ],
     "image": "images/MarioProfil1.png",
     "experiences": [
         {
-            "experience":"Donkey Kong",
-            "annee":1981
+            "experience": "Donkey Kong",
+            "annee": 1981
         },
         {
-            "experience":"Mario Bros.",
-            "annee":1983
+            "experience": "Mario Bros.",
+            "annee": 1983
         },
         {
-            "experience":"Super Mario 64",
-            "annee":1996
+            "experience": "Super Mario 64",
+            "annee": 1996
         },
         {
-            "experience":"Super Mario Sunshine",
-            "annee":2002
+            "experience": "Super Mario Sunshine",
+            "annee": 2002
         },
         {
-            "experience":"Super Mario Galaxy",
-            "annee":2007
+            "experience": "Super Mario Galaxy",
+            "annee": 2007
         },
         {
-            "experience":"Super Mario Odyssey",
-            "annee":2017
+            "experience": "Super Mario Odyssey",
+            "annee": 2017
         }
     ],
     "formation": [
@@ -41,7 +43,7 @@
         "Go Kart avec obstacles",
         "Cueillette de champignons"
     ],
-    "photo":[
+    "photo": [
         "portrait1.jpg",
         "portrait2.jpg",
         "portrait3.jpg"
