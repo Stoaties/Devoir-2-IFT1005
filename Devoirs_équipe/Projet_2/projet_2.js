@@ -1,4 +1,7 @@
 
 function help() {
-    alert("bien reçu, vous serez sauvé dès que possible!");
+    if(contactForm.isValid()){
+    	alert("bien reçu, vous serez sauvé dès que possible!");
+    }
+    
 }

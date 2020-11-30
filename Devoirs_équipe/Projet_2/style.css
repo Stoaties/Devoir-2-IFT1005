@@ -13,7 +13,7 @@
 }
 
 body{
-	font-family: impact;
+	font-family: "old";
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -21,7 +21,7 @@ body{
 	padding: 20px;
 	
 	background-image: url('images/cloud.png');
-	background-repeat:repeat-y;
+	background-repeat:repeat;
 	
 }
 	/*
@@ -69,6 +69,15 @@ h1{
 
 }
 
+header h1{
+	color: white;
+	padding: 0.3em 1em 0.45em 1em;
+	background-image: url("images/brick.png");
+	background-size: 2.2em;
+	background-repeat: repeat;
+	text-shadow:-4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000, 4px 4px 0 #000;
+}
+
 /* page cv */
 
 .cv h1{
@@ -87,6 +96,7 @@ h1{
 	text-align:left;
 	padding-left:12em;
 	padding-right: 12em;
+	padding-top: 5em;
 	line-height: 3em;
 	font-family: "old";
 	display: flex;
@@ -133,7 +143,24 @@ h1{
 
 .contact{
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2em;
+}
+
+.contact-inner-wrap{
+	padding: 1em 1em 1em 1em;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 50%;
+	background-image: url(images/mario-peach.png);
+	background-color: #ffffff;
+	background-position: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	border-radius: 2%;
+	/*flex-wrap: wrap;
 	justify-content: flex-start;
 	align-content: center;
 	margin-top:0;
@@ -142,9 +169,16 @@ h1{
 	background-color: #ffffff;
 	background-repeat:no-repeat;
 	background-attachment: fixed;
-	background-position:right bottom;
+	background-position:right bottom;*/
 	
 }
+
+.contact-form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 input[type=text],[type=email],[type=tel], [type=date], select{
 	width: 50%;
 	padding: 12px 20px;
@@ -155,9 +189,12 @@ input[type=text],[type=email],[type=tel], [type=date], select{
 	box-sizing: border-box;
 }
 
+.bouton-aide{
+	width: 5vw;
+}
+
 .container-button {
 	padding-top:10em;
-	position: absolute;
 	width: 100%;
 	max-width: 100px;
 }
@@ -169,15 +206,12 @@ input[type=text],[type=email],[type=tel], [type=date], select{
 }
 
 .container-button .btn {
-	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	background-color: #f1f1f1;
 	color: black;
 	font-family: "old";
-	
 	font-size: 16px;
 	padding: 16px 30px;
 	border: none;
@@ -365,4 +399,6 @@ ul.power li {
 }
 
 /*footer*/
-
+footer{
+	padding-top: 5em;
+}
