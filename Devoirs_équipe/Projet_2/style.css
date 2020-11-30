@@ -19,12 +19,11 @@ body{
 	height: 100%;
 	flex: 1 0 auto;
 	padding: 20px;
+	
 	background-image: url('images/cloud.png');
 	background-repeat:repeat-y;
-
 	
 }
-	
 	/*
 	width: 100vw;
 	position: absolute;
@@ -70,11 +69,6 @@ h1{
 
 }
 
-.header-background{
-	
-	
-
-}
 /* page cv */
 /*.background{
 	background-image: url('images/super-mario.gif');
@@ -82,11 +76,18 @@ h1{
 	opacity: 1;
 }
 */
+
+#img-cv{
+	border-color: black;
+	border-radius: 3px;
+	border-style: solid;
+	background-color: lightblue;
+}
+
 .cv{
 	text-align:left;
-	padding-left:200px;
-	padding-right:200px;
-	line-height: 1.6;
+	padding-left:12em;
+	line-height: 3em;
 	font-family: "old";
 	display: flex;
 	flex-direction: column;
@@ -337,6 +338,8 @@ ul.power li {
 	text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	width: auto;
 }
+
+
 
 /*footer*/
 

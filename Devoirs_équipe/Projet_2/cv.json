@@ -1,24 +1,31 @@
 {
     "Nom": "Mario",
-    "EmploiPresent": "plombier (1983, present)",
+    "emplois": ["plombier (1983, present)"],
     "image": "images/MarioProfil1.png",
-    "emploi": [
+    "experiences": [
         {
-            "id": "dk",
-            "DK": "Donkey Kong",
-            "DKAnnee": 1981
+            "experience":"Donkey Kong",
+            "annee":1981
         },
         {
-            "MB": "Mario Bros.",
-            "MBAnnee": 1983,
-            "SP64": "Super Mario 64",
-            "SP64Annee": 1996,
-            "SMS": "Super Mario Sunshine",
-            "SMSAnnee": 2002,
-            "SMG": "Super Mario Galaxy",
-            "SMGAnnee": 2007,
-            "SMO": "Super Mario Odyssey",
-            "SMOAnnee": 2017
+            "experience":"Mario Bros.",
+            "annee":1983
+        },
+        {
+            "experience":"Super Mario 64",
+            "annee":1996
+        },
+        {
+            "experience":"Super Mario Sunshine",
+            "annee":2002
+        },
+        {
+            "experience":"Super Mario Galaxy",
+            "annee":2007
+        },
+        {
+            "experience":"Super Mario Odyssey",
+            "annee":2017
         }
     ],
     "formation": [
